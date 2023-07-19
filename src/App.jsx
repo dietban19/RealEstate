@@ -10,21 +10,19 @@ import Footer from "./components/Footer/footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <div>
-          <div className="white-gradient">e</div>
-          <Header />
-          <Hero />
-        </div>
-        <Companies />
-        <Residencies />
-        <Value />
-        <Contact />
-        <GetStarted />
-        <Footer />
+    <div className="App">
+      <div>
+        <div className="white-gradient">e</div>
+        <Header />
+        <Hero />
       </div>
-    </BrowserRouter>
+      <Companies />
+      <Residencies />
+      <Value />
+      <Contact />
+      <GetStarted />
+      <Footer />
+    </div>
   );
 }
 
