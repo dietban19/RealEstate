@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import data from "../../utils/slider.json";
 import { sliderSettings } from "../../utils/common";
-import { Button } from "bootstrap";
+
 const residencies = () => {
   return (
     <section className="r-wrapper" id="residencies">
