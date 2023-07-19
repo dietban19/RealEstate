@@ -2,10 +2,10 @@
 }
 .innerContainer {
   background-color: #4161df;
-  border-radius: 0.75rem;
-
+  /* border-radius: 0.75rem; */
   padding: 1rem;
   gap: 1.3rem;
+  margin-bottom: 1rem;
 }
 .innerContainer > :nth-child(1) {
   color: white;
