@@ -56,6 +56,24 @@
   right: 0;
   /* z-index: 2; */
 }
+@media (max-width: 375px) {
+  .r-container {
+    position: relative;
+    margin-bottom: 3rem;
+    /* background-color: red; */
+    padding-bottom: 4rem;
+  }
+  .r-container .swiper {
+    overflow: visible;
+  }
+  .r-buttons {
+    bottom: -30rem;
+    left: 0%;
+  }
+  .r-buttons > button {
+    font-size: 1.5rem !important;
+  }
+}
 .r-buttons button {
   font-size: 1.2rem;
   padding: 0.2rem 0.8rem;
