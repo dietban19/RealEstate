@@ -5,7 +5,7 @@ const data = [
     icon: <HiShieldCheck />,
     heading: "Halal Mortgage",
     detail:
-      "No Interest Mortgage, no need to worry about Riba. It is Similar to renting to buy. With our agents, we can assure that we do not charge extra for what ever you are already paying",
+      "No Interest Mortgage, It is Similar to renting to buy. With our agents, we can assure that we do not charge extra for what ever you are already paying",
   },
   {
     icon: <MdCancel />,
