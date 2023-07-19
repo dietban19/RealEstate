@@ -8,9 +8,6 @@
 
 .hero-container {
   justify-content: space-around;
-  outline: 1px solid red;
-  /* align-items: flex-end; */
-  /* background-color: red; */
 }
 
 @media (max-width: 1060px) {
@@ -37,7 +34,6 @@
 } */
 .hero-left {
   gap: 3rem;
-  outline: 3px solid red;
 }
 .hero-left__title {
   position: relative;
