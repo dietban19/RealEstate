@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "name": "Royal Oak Company",
+    "price": "547,043",
+    "detail": "123 Royal Vista Road NW Calgary, near Tuscany Station",
     "image": "./r1.png"
   },
     {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Rocky View Island",
+    "price": "366,353",
+    "detail": "234 Rockie Isla, near YMCA and many shops",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Turnip Kraken",
+    "price": "635,853",
+    "detail": "512 Rockie Good Boy NW, quiet neighborhood",
     "image": "./r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Royal Oak Company",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "detail": "123 Royal Vista Road NW Calgary, near Tuscany Station",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "name": "Rocky View Island",
+    "price": "366,353",
+    "detail": "234 Rockie Isla, near YMCA and many shops",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "name": "Turnip Kraken",
+    "price": "635,853",
+    "detail": "512 Rockie Good Boy NW, quiet neighborhood",
     "image": "./r3.png"
   }
 
