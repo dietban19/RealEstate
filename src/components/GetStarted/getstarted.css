@@ -1,0 +1,36 @@
+.gs-container {
+}
+.innerContainer {
+  background-color: #4161df;
+  border-radius: 0.75rem;
+
+  padding: 1rem;
+  gap: 1.3rem;
+}
+.innerContainer > :nth-child(1) {
+  color: white;
+}
+
+.innerContainer > :nth-child(2) {
+  color: var(--secondary);
+  text-align: center;
+}
+.gs-button {
+  border: none;
+  color: white;
+  background: #4b4bd9;
+  border: 2px solid white;
+  padding: 0.6rem 1.4rem;
+  border-radius: 0.75rem;
+  font-weight: 500;
+  transition: all 100ms ease-in;
+}
+.gs-button:hover {
+  transform: scale(1.1);
+}
+.gs-button button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+}

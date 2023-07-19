@@ -1,0 +1,56 @@
+.v-left__imageContainer {
+  width: 30rem;
+  height: 35rem;
+  border-radius: 15rem 15rem 0 0;
+  overflow: hidden;
+  border: 8px solid rgba(232 232 232 / 93%);
+}
+
+.v-container > div {
+  flex: 1;
+}
+@media (max-width: 1120px) {
+  .v-container {
+    flex-direction: column;
+  }
+}
+
+.v-right {
+  gap: 0.5rem;
+}
+
+.icon {
+  color: blue;
+  background-color: var(--lightBlue);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.accordion {
+  margin-top: 2rem;
+  border: none;
+}
+
+.accordionHeading {
+  font-size: 1.1rem;
+}
+.accordionItem {
+  background-color: white;
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+}
+
+.accordionItem.expanded {
+  box-shadow: var(--shadow);
+  border-radius: 6px;
+}
+.accordionButton {
+  /* background-color: red; */
+  background-color: white;
+  padding: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+}

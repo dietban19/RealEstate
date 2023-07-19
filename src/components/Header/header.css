@@ -1,0 +1,75 @@
+.h-wrapper {
+  /* padding: 0rem 10rem; */
+  z-index: 99;
+  position: sticky;
+
+  top: 0;
+}
+.menu-icon {
+  display: none;
+}
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  .menu-icon button {
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+  .h-menu {
+    /* display: none; */
+    background-color: white;
+    padding: 1rem;
+    color: black;
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    top: 5rem;
+    border-radius: 0.75rem;
+    flex-direction: column;
+    animation: open 0.5s ease-in-out;
+  }
+  .closed {
+    display: none;
+    animation: slideOut 0.3s ease-in-out !important;
+  }
+  @keyframes open {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.h-container {
+  /* background-color: red; */
+  color: var(--secondary);
+
+  /* width: 100%; */
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.h-menu {
+  gap: 2rem;
+}
+.h-menu > *:hover {
+  cursor: pointer;
+}
+.scrolled {
+  transition: all 300ms ease-in-out;
+  background-color: rgba(138, 138, 138, 0.828);
+}
