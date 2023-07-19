@@ -72,6 +72,18 @@
   width: 100%;
   gap: 1.6rem;
 }
+@media (max-width: 520px) {
+  .contact-right__imageContainer {
+    width: 20rem;
+    height: 22.5rem;
+  }
+}
+@media (max-width: 375px) {
+  .contact-right__imageContainer {
+    width: 15rem;
+    height: 17.5rem;
+  }
+}
 
 @media (max-width: 1240px) {
   .contact-container {

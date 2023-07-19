@@ -1,8 +1,10 @@
 import React from "react";
 import HeroImage from "../../../public/hero-image.png";
 import "./hero.css";
-import { HiLocationMarker } from "react-icons/hi";
+import { HiLocationMarker, HiSearch } from "react-icons/hi";
+
 import CountUp from "react-countup";
+
 const hero = () => {
   return (
     <div className="hero-wrapper">
@@ -26,7 +28,10 @@ const hero = () => {
           <div className="flexCenter hero-left__searchBar">
             <HiLocationMarker color="var(--blue)" size={25} />
             <input type="search" placeholder="search" />
-            <button className="button">Search</button>
+            <div className="button">
+              {" "}
+              <HiSearch size={15} />
+            </div>
           </div>
           <div className="flexCenter hero-left__stats">
             <div className="flexColCenter stats__statContent">
