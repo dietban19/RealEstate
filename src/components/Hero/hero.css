@@ -2,11 +2,13 @@
   color: white;
   position: relative;
   padding-bottom: 2rem;
+  z-index: 1;
   /* background-color: var(--black); */
 }
 
 .hero-container {
-  justify-content: space-between;
+  justify-content: space-around;
+  outline: 1px solid red;
   /* align-items: flex-end; */
   /* background-color: red; */
 }
@@ -14,10 +16,14 @@
 @media (max-width: 1060px) {
   .hero-container {
     /* justify-content: center; */
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 }
-
+@media (max-width: 640px) {
+  .hero-container {
+    margin-top: 2rem;
+  }
+}
 .hero-right__image-container {
   width: 30rem;
   height: 35rem;
@@ -31,6 +37,7 @@
 } */
 .hero-left {
   gap: 3rem;
+  outline: 3px solid red;
 }
 .hero-left__title {
   position: relative;

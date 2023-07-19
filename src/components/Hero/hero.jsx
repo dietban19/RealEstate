@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 const hero = () => {
   return (
     <div className="hero-wrapper">
-      <div className=" paddings innerWidth flexCenter  hero-container">
+      <div className=" paddings innerWidth flexCenter hero-container">
         {/* HERO LEFT */}
         <div className=" flexColStart hero-left">
           <div className="hero-left__title">
@@ -17,10 +17,8 @@ const hero = () => {
               <br /> Property
             </h1>
           </div>
-          <div className="flexColStart hero-left__description">
-            <span className="secondaryText">
-              Find a Variety of properties that suit you very easily
-            </span>
+          <div className="flexColStart secondaryText hero-left__description">
+            <span>Find a Variety of properties that suit you very easily</span>
             <span className="secondaryText">
               Forget all difficulties in finding your new home
             </span>
