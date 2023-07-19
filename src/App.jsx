@@ -5,7 +5,7 @@ import Companies from "./components/Companies/companies";
 import Value from "./components/Value/value";
 import Contact from "./components/Contact/contact";
 import Residencies from "./components/Residencies/residencies";
-import GetStarted from "./components/GetStarted/getStarted";
+import GetStarted from "./components/GetStarted/getstarted";
 import Footer from "./components/Footer/footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {

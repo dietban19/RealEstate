@@ -65,7 +65,7 @@ const header = () => {
           </Link>
 
           <Link
-            to="getstarted"
+            to="getstart"
             spy={true}
             smooth={true}
             offset={20}
