@@ -1,8 +1,13 @@
+.f-wrapper {
+  background-color: rgb(27, 14, 102);
+  background-color: red;
+  outline: 1px solid red;
+}
 .f-container {
-  /* background-color: red; */
   justify-content: space-between;
   background-color: rgb(27, 14, 102);
   padding: 3rem;
+  width: 100%;
 }
 
 .f-left {
