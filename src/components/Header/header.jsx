@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../../../public/logo.png";
+import Logo from "/dwellr-logo.png";
 import "./header.css";
 import { BiMenuAltRight } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 const header = () => {
   // Set the initial state of the open based on screen width
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       const headerWrapper = document.querySelector(".h-wrapper");
@@ -35,9 +35,10 @@ const header = () => {
   console.log(open);
   return (
     <section className="h-wrapper">
-      <div className=" flexCenter innerWidth paddings  h-container">
+      <div className=" flexCenter innerWidth paddings h-container">
         <img src={Logo} alt="logo" width={100} />
 
+        {/* <div className="logo">Dwellr</div> */}
         <div className={`flexCenter h-menu ${open ? "" : "closed"}`}>
           <Link
             to="residencies"
@@ -80,6 +81,7 @@ const header = () => {
               smooth={true}
               offset={20}
               duration={500}
+              className="btn-primary"
             >
               Contact
             </Link>

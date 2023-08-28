@@ -1,7 +1,7 @@
 .gs-container {
 }
 .innerContainer {
-  background-color: #4161df;
+  background-color: var(--clr-primary-500);
   /* border-radius: 0.75rem; */
   padding: 1rem;
   gap: 1.3rem;

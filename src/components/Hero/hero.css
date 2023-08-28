@@ -29,10 +29,11 @@
   border: 8px solid rgba(255, 255, 255, 0.15);
 }
 
-/* .hero-left__description {
-  flex-direction: column;
-} */
+.hero-left__description {
+}
 .hero-left {
+  /* flex: 1; */
+  width: 50%;
   gap: 3rem;
 }
 .hero-left__title {
@@ -51,6 +52,9 @@
   padding: 0.5rem 1rem;
   border-radius: 0.3125rem;
   border: 3px solid rgba(120, 120, 120, 0.374);
+}
+.hero-right {
+  /* flex: 1; */
 }
 @media (max-width: 520px) {
   .hero-right__image-container {
@@ -111,5 +115,11 @@
 
 .stats__statContent > :nth-child(1) > :last-child {
   /* + */
-  color: orange;
+  color: var(--clr-primary-400);
+}
+
+.descriptionHeader {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: white;
 }

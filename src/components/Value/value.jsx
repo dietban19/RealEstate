@@ -14,7 +14,7 @@ import Value from "../../../public/value.png";
 import data from "../../utils/accordion";
 const value = () => {
   return (
-    <section className=" v-wrapper" id="values">
+    <section className=" v-wrapper" id="value">
       <div className="paddings innerWidth  flexCenter v-container">
         {/* LEFT SIDE */}
         <div className="v-left">

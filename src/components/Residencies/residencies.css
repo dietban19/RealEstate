@@ -45,9 +45,9 @@
 .r-container .swiper-horizontal {
   overflow: visible;
 }
-/* .swiper-wrapper {
+.swiper-wrapper {
   width: 50%;
-} */
+}
 
 .r-buttons {
   position: absolute;

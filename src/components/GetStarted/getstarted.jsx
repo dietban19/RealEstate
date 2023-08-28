@@ -5,11 +5,11 @@ const getstarted = () => {
     <section className="gs-wrapper" id="getstart">
       <div className="padding innerWidth  gs-container">
         <div className="flexColCenter innerContainer">
-          <span className="primaryText">Get Started with Homyz</span>
+          <span className="primaryText">Get Started with Dwellr</span>
           <span className="secondaryText">
-            Subscribe and find super attractive price quotes from us.
+            Get Exclusive Property Alerts.
             <br />
-            Find your residence soon
+            Subscribe to Dwellr for the latest rentals, deals, and more
           </span>
 
           <button className="gs-button">Get Started</button>

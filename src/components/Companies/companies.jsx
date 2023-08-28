@@ -1,17 +1,20 @@
 import React from "react";
 import "./companies.css";
-import Equinix from "../../../public/equinix.png";
-import Prologis from "../../../public/prologis.png";
-import Realty from "../../../public/realty.png";
-import Tower from "../../../public/tower.png";
+import Terrafund from "../../assets/images/terrafund.png";
+import Havenbridge from "../../assets/images/Havenbridge.png";
+import Skyline from "../../assets/images/Skyline.png";
+import Summithold from "../../assets/images/Summithold.png";
+// import Prologis from "/prologis.png";
+// import Realty from "/realty.png";
+// import Tower from "/tower.png";
 const Companies = () => {
   return (
     <div className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
-        <img src={Equinix}></img>
-        <img src={Prologis}></img>
-        <img src={Realty}></img>
-        <img src={Tower}></img>
+        <img src={Terrafund}></img>
+        <img src={Havenbridge}></img>
+        <img src={Skyline}></img>
+        <img src={Summithold}></img>
       </div>
     </div>
   );

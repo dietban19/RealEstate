@@ -1,11 +1,10 @@
 import React from "react";
 import "./contact.css";
 
-import Contact from "../../../public/contact.jpg";
+import Contact from "/contact.jpg";
 import { MdCall, MdOutlineEmail } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { HiChatBubbleBottomCenter } from "react-icons/hi2";
-import { GrAddCircle } from "react-icons/gr";
 
 const contact = () => {
   return (

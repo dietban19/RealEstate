@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=MuseoModerno:wght@400;500;600;700&display=swap");
 :root {
   --primary: #1f3e72;
   --secondary: rgba(255, 255, 255, 0.78);
@@ -8,7 +9,15 @@
   --lightBlue: #eeeeff;
   --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
 
+  --clr-primary-400: hsl(281, 56%, 79%);
+  --clr-primary-500: hsl(281, 78%, 37%);
+  --clr-primary-600: hsl(283, 76%, 25%);
+  --clr-blue: hsl(199, 100%, 61%);
+  /* --clr-orange: hsl(42, 100%, 70%); */
+  --clr-orange: hsl(15, 87%, 75%);
   --ff-primary: "Poppins", sans-serif;
+  --ff-logo: "Montserrat", sans-serif;
+  --ff-logo1: "MuseoModerno", cursive;
 }
 /*
   1. Use a more-intuitive box-sizing model.
@@ -143,17 +152,20 @@ a {
 }
 
 .primaryText {
-  color: #1f3e72;
+  color: var(--clr-primary-500);
   font-weight: bold;
   font-size: 2rem;
 }
 
 .secondaryText {
-  color: rgb(140 139 139);
+  color: rgb(162, 162, 162);
   font-size: 0.9rem;
 }
+.thirdText {
+  color: rgb(70, 70, 70);
+}
 .orangeText {
-  color: orange;
+  color: var(--clr-orange);
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -190,11 +202,14 @@ a {
 .button {
   border: none;
   color: white;
-  background: var(--blue-gradient);
+  background: var(--clr-blue);
   padding: 0.6rem 1.4rem;
   border-radius: 0.25rem;
   font-weight: 500;
   transition: all 100ms ease-in;
+}
+.button a {
+  color: white;
 }
 
 button:hover {

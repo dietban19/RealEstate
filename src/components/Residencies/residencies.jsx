@@ -13,6 +13,7 @@ const residencies = () => {
           <span className="orangeText">Best Choices</span>
           <span className="primaryText">Popular Residencies</span>
         </div>
+
         <Swiper {...sliderSettings}>
           <SliderButtons />
           {data.map((card, i) => (

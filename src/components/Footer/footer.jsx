@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import Logo from "../../../public/logo2.png";
+import Logo from "/dwellr-logo.png";
 const footer = () => {
   return (
     <span className="f-wrapper">
@@ -8,7 +8,7 @@ const footer = () => {
         {/* Left Side */}
         <div className="flexColStart f-left">
           <img src={Logo} alt="logo"></img>
-          <div className="secondaryText">
+          <div className="thirdText">
             Enhancing lives through <br />
             ideal living spaces
           </div>
@@ -17,7 +17,7 @@ const footer = () => {
         {/* Right Side */}
         <div className="flexColEnd f-right">
           <span className="primaryText">Information</span>
-          <span className="secondaryText">145 New York, FL 5467, USA</span>
+          <span className="thirdText">145 New York, FL 5467, USA</span>
           <nav className="flexCenter navContainer">
             <a href="#">Properties</a>
             <a href="#">Services</a>

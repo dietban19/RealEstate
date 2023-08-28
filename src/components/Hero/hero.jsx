@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../../../public/hero-image.png";
+import HeroImage from "/hero-image.png";
 import "./hero.css";
 import { HiLocationMarker, HiSearch } from "react-icons/hi";
 
@@ -12,17 +12,23 @@ const hero = () => {
         {/* HERO LEFT */}
         <div className=" flexColStart hero-left">
           <div className="hero-left__title">
-            <div className="orange-circle"></div>
+            {/* <div className="orange-circle"></div> */}
             <h1>
-              Discover
-              <br /> Most Suitable
-              <br /> Property
+              Rent
+              <br />
+              Your Space
+              <br /> Explore
+              <br /> the World
             </h1>
           </div>
           <div className="flexColStart secondaryText hero-left__description">
-            <span>Find a Variety of properties that suit you very easily</span>
-            <span className="secondaryText">
-              Forget all difficulties in finding your new home
+            <div className="descriptionHeader">
+              Join Our Community of Hosts and Travelers:
+            </div>
+            <span>
+              Whether you're sharing your space or seeking an adventure, we're
+              here to connect you with a world of possibilities and
+              unforgettable experiences.
             </span>
           </div>
           <div className="flexCenter hero-left__searchBar">
